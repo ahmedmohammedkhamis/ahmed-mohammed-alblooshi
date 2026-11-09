@@ -1,9 +1,0 @@
- Pseudocode is a simple way of writing program steps using normal English instead of programming code. It helps us plan and understand a program before writing the actual code. 
-
- plain text 
- start 
- open the file 
- read the file 
- display the content 
- close the file 
- END 
