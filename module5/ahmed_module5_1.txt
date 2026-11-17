@@ -1,0 +1,37 @@
+1. What is AI?
+Artificial Intelligence lets computers perform tasks that normally require human intelligence.
+
+2. What is an LLM?
+A Large Language Model understands and generates text, like the models used by ChatGPT.
+
+3. What is LLM model size?
+It is commonly measured by the number of parameters, such as 7 billion parameters.
+
+4. What are tokens and tokenization?
+A token is a word, part of a word, or symbol. Tokenization splits text into tokens.
+
+5. What are parameters?
+Numbers learned during training. More parameters usually mean a larger model, not always a better one.
+
+6. What is fine-tuning?
+Additional training of an existing model on specific data for a particular task.
+
+7. What is prompt engineering? How is it different?
+Prompt engineering means writing clear instructions for better answers. It changes the request; fine-tuning changes model weights through training.
+
+8. What are embeddings? Why are they important?
+Numeric representations of meaning, useful for finding similar texts.
+
+9. What is a context window?
+The amount of text a model can process in one request. It matters for long conversations and code files.
+
+10. What are hallucinations and LLM limitations?
+Hallucinations are incorrect answers presented confidently. Limitations include errors, outdated knowledge, and context limits.
+
+11. How can LLMs interact with computers? What is RAG?
+They use tools and APIs to read files or perform actions. RAG retrieves external information to help answer questions.
+
+12. Three frameworks to start coding with LLMs:
+- LangChain: Builds LLM apps with tools.
+- LlamaIndex: Connects LLMs to documents and data.
+- Hugging Face Transformers: Runs and uses language models.
