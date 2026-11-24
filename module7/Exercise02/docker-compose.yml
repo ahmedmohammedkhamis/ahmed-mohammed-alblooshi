@@ -1,0 +1,17 @@
+# نحدد الخدمات المطلوبة
+services:
+
+  # اسم خدمة الذكاء الاصطناعي
+  ai-chat:
+
+    # إنشاء Docker Image
+    build: .
+
+    # اسم الصورة
+    image: ai-chat
+
+    # السماح للمستخدم بالكتابة
+    stdin_open: true
+
+    # تفعيل التفاعل مع Terminal
+    tty: true
