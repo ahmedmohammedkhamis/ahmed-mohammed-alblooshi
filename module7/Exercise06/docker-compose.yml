@@ -1,0 +1,14 @@
+# نحدد الخدمات المطلوبة
+services:
+  chat:
+
+    # نحدد اسم Docker Image
+    image: persona-chat
+
+    # نربط منفذ الكمبيوتر بالبرنامج
+    ports:
+      - "8501:8501"
+
+    # نحدد تشغيل الشخصية
+    environment:
+      USE_PERSONA: "false"
